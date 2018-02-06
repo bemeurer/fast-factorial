@@ -4,7 +4,8 @@ version = "0.1.0"
 authors = ["Bernardo Meurer <meurerbernardo@gmail.com>"]
 
 [dependencies]
-gmp-mpfr-sys = "1.0.8"
+rug = "0.8.0"
+lazy_static = "0.2.10"
 
 [profile.dev]
 opt-level = 1
